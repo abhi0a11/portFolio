@@ -1,0 +1,98 @@
+@media only screen and (max-width:500px){
+    body{
+        background-color: hsl(233, 47%, 7%);
+
+    }
+    .content{
+        background-color: hsl(233, 47%, 7%);
+        position: relative;      
+        top: 200px;
+    }
+  
+}
+@media only screen and (max-width:1392px){
+    .main {
+        width: 1392px;
+        height: 100vh;
+      }
+}
+@media only screen and (max-width:1360px){
+    .main {
+        width: 1360px;
+        height: 100vh;
+      }
+}
+@media only screen and (max-width:1092px){
+    .stat {
+        position: relative;
+        top: 40px;
+        left: 40px;
+    }
+}
+
+
+@media only screen and (max-width:375px){
+.pareshani{
+    display: grid !important;
+    height: 100%;
+    position: relative;
+    left: 218px;
+    width: 100%;
+}
+
+.area-1{
+    /* order: 2; */
+    height: 69vh;
+}
+
+h1 {
+    position: relative;
+    bottom: 37px;
+    margin-left: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    padding: 0px 129px;
+    margin: 0;
+    text-align: center;
+
+  }
+  .para{
+    padding: 2px 40px;
+    position: relative;
+    bottom: 273px;
+    font-size: 27px;
+    text-align: center;
+  }
+  .stat{
+    position: relative;
+    top: -163px;
+    font-size:21;
+    left: 40px;
+  }
+.image-overlay{
+    background: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 651px 469px;
+
+  }
+  .overlay{
+    order: 3;
+    width: 50%;
+    height: 545px;
+  }
+  .main{
+      position: relative;
+      top: 400px;
+      width: 503%;
+      height: 119vh;
+  }
+
+  .content{
+    height: 233vh;
+    width: 112%;
+
+  }
+
+}
