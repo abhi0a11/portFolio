@@ -41,13 +41,13 @@
     justify-content: center;
 }
 
-.img-brand{
+/* .img-brand{
     box-shadow:0 2.4rem 3rem rgb(0, 0, 0, 130.175) !important;
     width: 50%;
     /* mix-blend-mode: luminosity; */
     /* max-width: 410px; */
     opacity: 0.5;
-}
+} */
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
